@@ -1,0 +1,10 @@
+tensorflow==2.10.1
+segmentation-models
+pandas
+numpy
+matplotlib
+seaborn
+PyYAML
+opencv-python
+#onnx
+#onnx_runtime

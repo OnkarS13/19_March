@@ -1,0 +1,344 @@
+{
+  "build": "h90431f1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "cudatoolkit 11.*",
+    "libgcc-ng >=3.0",
+    "libstdcxx-ng >=3.4"
+  ],
+  "extracted_package_dir": "/home/agrograde/anaconda3/pkgs/cudnn-8.1.0.77-h90431f1_0",
+  "features": "",
+  "files": [
+    "bin/.cudnn-post-link.sh",
+    "include/cudnn.h",
+    "include/cudnn_adv_infer.h",
+    "include/cudnn_adv_infer_v8.h",
+    "include/cudnn_adv_train.h",
+    "include/cudnn_adv_train_v8.h",
+    "include/cudnn_backend.h",
+    "include/cudnn_backend_v8.h",
+    "include/cudnn_cnn_infer.h",
+    "include/cudnn_cnn_infer_v8.h",
+    "include/cudnn_cnn_train.h",
+    "include/cudnn_cnn_train_v8.h",
+    "include/cudnn_ops_infer.h",
+    "include/cudnn_ops_infer_v8.h",
+    "include/cudnn_ops_train.h",
+    "include/cudnn_ops_train_v8.h",
+    "include/cudnn_v8.h",
+    "include/cudnn_version.h",
+    "include/cudnn_version_v8.h",
+    "lib/libcudnn.so",
+    "lib/libcudnn.so.8",
+    "lib/libcudnn.so.8.1.0",
+    "lib/libcudnn_adv_infer.so",
+    "lib/libcudnn_adv_infer.so.8",
+    "lib/libcudnn_adv_infer.so.8.1.0",
+    "lib/libcudnn_adv_train.so",
+    "lib/libcudnn_adv_train.so.8",
+    "lib/libcudnn_adv_train.so.8.1.0",
+    "lib/libcudnn_cnn_infer.so",
+    "lib/libcudnn_cnn_infer.so.8",
+    "lib/libcudnn_cnn_infer.so.8.1.0",
+    "lib/libcudnn_cnn_train.so",
+    "lib/libcudnn_cnn_train.so.8",
+    "lib/libcudnn_cnn_train.so.8.1.0",
+    "lib/libcudnn_ops_infer.so",
+    "lib/libcudnn_ops_infer.so.8",
+    "lib/libcudnn_ops_infer.so.8.1.0",
+    "lib/libcudnn_ops_train.so",
+    "lib/libcudnn_ops_train.so.8",
+    "lib/libcudnn_ops_train.so.8.1.0"
+  ],
+  "fn": "cudnn-8.1.0.77-h90431f1_0.tar.bz2",
+  "license": "cuDNN Software License Agreement",
+  "link": {
+    "source": "/home/agrograde/anaconda3/pkgs/cudnn-8.1.0.77-h90431f1_0",
+    "type": 1
+  },
+  "md5": "7b8da042080da30d6d1c00d2924d3f7c",
+  "name": "cudnn",
+  "package_tarball_full_path": "/home/agrograde/anaconda3/pkgs/cudnn-8.1.0.77-h90431f1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.cudnn-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "1fed353cac95ed020551652ff444128292bb35be121ef26bdbb8bb9a487fac9f",
+        "sha256_in_prefix": "1fed353cac95ed020551652ff444128292bb35be121ef26bdbb8bb9a487fac9f",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "include/cudnn.h",
+        "path_type": "hardlink",
+        "sha256": "94f0ebfe3d06796f0ff3e2d09110acc9c8ce09767cf3e009630f86b2ce1ac743",
+        "sha256_in_prefix": "94f0ebfe3d06796f0ff3e2d09110acc9c8ce09767cf3e009630f86b2ce1ac743",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "include/cudnn_adv_infer.h",
+        "path_type": "hardlink",
+        "sha256": "cdf0fb5ee097aa970f6494360ed8b774c0ea01ba3901353c2dde4a9b149ac79c",
+        "sha256_in_prefix": "cdf0fb5ee097aa970f6494360ed8b774c0ea01ba3901353c2dde4a9b149ac79c",
+        "size_in_bytes": 29025
+      },
+      {
+        "_path": "include/cudnn_adv_infer_v8.h",
+        "path_type": "hardlink",
+        "sha256": "cdf0fb5ee097aa970f6494360ed8b774c0ea01ba3901353c2dde4a9b149ac79c",
+        "sha256_in_prefix": "cdf0fb5ee097aa970f6494360ed8b774c0ea01ba3901353c2dde4a9b149ac79c",
+        "size_in_bytes": 29025
+      },
+      {
+        "_path": "include/cudnn_adv_train.h",
+        "path_type": "hardlink",
+        "sha256": "45b196d2e79a8a6b2459292142363f2089b5fd615e65cfef9adeb63431c60492",
+        "sha256_in_prefix": "45b196d2e79a8a6b2459292142363f2089b5fd615e65cfef9adeb63431c60492",
+        "size_in_bytes": 27700
+      },
+      {
+        "_path": "include/cudnn_adv_train_v8.h",
+        "path_type": "hardlink",
+        "sha256": "45b196d2e79a8a6b2459292142363f2089b5fd615e65cfef9adeb63431c60492",
+        "sha256_in_prefix": "45b196d2e79a8a6b2459292142363f2089b5fd615e65cfef9adeb63431c60492",
+        "size_in_bytes": 27700
+      },
+      {
+        "_path": "include/cudnn_backend.h",
+        "path_type": "hardlink",
+        "sha256": "6e7c978df51b1a96615c7653a22b19c4103b5f009ab2647e4d4702e7049f6935",
+        "sha256_in_prefix": "6e7c978df51b1a96615c7653a22b19c4103b5f009ab2647e4d4702e7049f6935",
+        "size_in_bytes": 15708
+      },
+      {
+        "_path": "include/cudnn_backend_v8.h",
+        "path_type": "hardlink",
+        "sha256": "6e7c978df51b1a96615c7653a22b19c4103b5f009ab2647e4d4702e7049f6935",
+        "sha256_in_prefix": "6e7c978df51b1a96615c7653a22b19c4103b5f009ab2647e4d4702e7049f6935",
+        "size_in_bytes": 15708
+      },
+      {
+        "_path": "include/cudnn_cnn_infer.h",
+        "path_type": "hardlink",
+        "sha256": "5a49b9436b6a654b8d57d48f7d49f13b778cd2f9208c62fdf857a0955fdf1ed9",
+        "sha256_in_prefix": "5a49b9436b6a654b8d57d48f7d49f13b778cd2f9208c62fdf857a0955fdf1ed9",
+        "size_in_bytes": 29011
+      },
+      {
+        "_path": "include/cudnn_cnn_infer_v8.h",
+        "path_type": "hardlink",
+        "sha256": "5a49b9436b6a654b8d57d48f7d49f13b778cd2f9208c62fdf857a0955fdf1ed9",
+        "sha256_in_prefix": "5a49b9436b6a654b8d57d48f7d49f13b778cd2f9208c62fdf857a0955fdf1ed9",
+        "size_in_bytes": 29011
+      },
+      {
+        "_path": "include/cudnn_cnn_train.h",
+        "path_type": "hardlink",
+        "sha256": "6b5ba1b2f0e0d994deaa74a3f935eb47cb61960e03bc21e72c8b9a46fa5f5070",
+        "sha256_in_prefix": "6b5ba1b2f0e0d994deaa74a3f935eb47cb61960e03bc21e72c8b9a46fa5f5070",
+        "size_in_bytes": 10177
+      },
+      {
+        "_path": "include/cudnn_cnn_train_v8.h",
+        "path_type": "hardlink",
+        "sha256": "6b5ba1b2f0e0d994deaa74a3f935eb47cb61960e03bc21e72c8b9a46fa5f5070",
+        "sha256_in_prefix": "6b5ba1b2f0e0d994deaa74a3f935eb47cb61960e03bc21e72c8b9a46fa5f5070",
+        "size_in_bytes": 10177
+      },
+      {
+        "_path": "include/cudnn_ops_infer.h",
+        "path_type": "hardlink",
+        "sha256": "c080b9787c0b5ae3daf072b76013aec3dd463d01b292ecea64e22dc3f58ef102",
+        "sha256_in_prefix": "c080b9787c0b5ae3daf072b76013aec3dd463d01b292ecea64e22dc3f58ef102",
+        "size_in_bytes": 48968
+      },
+      {
+        "_path": "include/cudnn_ops_infer_v8.h",
+        "path_type": "hardlink",
+        "sha256": "c080b9787c0b5ae3daf072b76013aec3dd463d01b292ecea64e22dc3f58ef102",
+        "sha256_in_prefix": "c080b9787c0b5ae3daf072b76013aec3dd463d01b292ecea64e22dc3f58ef102",
+        "size_in_bytes": 48968
+      },
+      {
+        "_path": "include/cudnn_ops_train.h",
+        "path_type": "hardlink",
+        "sha256": "0303c11b5a88c9ff6eaec45db3e7b584a1079092c700fe1b312a4101baaab3aa",
+        "sha256_in_prefix": "0303c11b5a88c9ff6eaec45db3e7b584a1079092c700fe1b312a4101baaab3aa",
+        "size_in_bytes": 25733
+      },
+      {
+        "_path": "include/cudnn_ops_train_v8.h",
+        "path_type": "hardlink",
+        "sha256": "0303c11b5a88c9ff6eaec45db3e7b584a1079092c700fe1b312a4101baaab3aa",
+        "sha256_in_prefix": "0303c11b5a88c9ff6eaec45db3e7b584a1079092c700fe1b312a4101baaab3aa",
+        "size_in_bytes": 25733
+      },
+      {
+        "_path": "include/cudnn_v8.h",
+        "path_type": "hardlink",
+        "sha256": "94f0ebfe3d06796f0ff3e2d09110acc9c8ce09767cf3e009630f86b2ce1ac743",
+        "sha256_in_prefix": "94f0ebfe3d06796f0ff3e2d09110acc9c8ce09767cf3e009630f86b2ce1ac743",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "include/cudnn_version.h",
+        "path_type": "hardlink",
+        "sha256": "5027778ff65a8a3658194e84f55b8264ace0639d8180e3bdc5560c0e0b12a548",
+        "sha256_in_prefix": "5027778ff65a8a3658194e84f55b8264ace0639d8180e3bdc5560c0e0b12a548",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "include/cudnn_version_v8.h",
+        "path_type": "hardlink",
+        "sha256": "5027778ff65a8a3658194e84f55b8264ace0639d8180e3bdc5560c0e0b12a548",
+        "sha256_in_prefix": "5027778ff65a8a3658194e84f55b8264ace0639d8180e3bdc5560c0e0b12a548",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "lib/libcudnn.so",
+        "path_type": "softlink",
+        "sha256": "b5c6043985710527fae313874211cb514bdba720f7355d75e8d12fcf2c85a3bd",
+        "size_in_bytes": 171096
+      },
+      {
+        "_path": "lib/libcudnn.so.8",
+        "path_type": "softlink",
+        "sha256": "b5c6043985710527fae313874211cb514bdba720f7355d75e8d12fcf2c85a3bd",
+        "size_in_bytes": 171096
+      },
+      {
+        "_path": "lib/libcudnn.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "b5c6043985710527fae313874211cb514bdba720f7355d75e8d12fcf2c85a3bd",
+        "sha256_in_prefix": "b5c6043985710527fae313874211cb514bdba720f7355d75e8d12fcf2c85a3bd",
+        "size_in_bytes": 171096
+      },
+      {
+        "_path": "lib/libcudnn_adv_infer.so",
+        "path_type": "softlink",
+        "sha256": "796e26e242dfca38f73ffb634a06e638bdf484f656cd69d77b39c90bdb835437",
+        "size_in_bytes": 126385000
+      },
+      {
+        "_path": "lib/libcudnn_adv_infer.so.8",
+        "path_type": "softlink",
+        "sha256": "796e26e242dfca38f73ffb634a06e638bdf484f656cd69d77b39c90bdb835437",
+        "size_in_bytes": 126385000
+      },
+      {
+        "_path": "lib/libcudnn_adv_infer.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "796e26e242dfca38f73ffb634a06e638bdf484f656cd69d77b39c90bdb835437",
+        "sha256_in_prefix": "796e26e242dfca38f73ffb634a06e638bdf484f656cd69d77b39c90bdb835437",
+        "size_in_bytes": 126385000
+      },
+      {
+        "_path": "lib/libcudnn_adv_train.so",
+        "path_type": "softlink",
+        "sha256": "c991efe1b1d28f519fdf637c53e2cba5bf1dc333962bbbc69021125b673980ce",
+        "size_in_bytes": 81394032
+      },
+      {
+        "_path": "lib/libcudnn_adv_train.so.8",
+        "path_type": "softlink",
+        "sha256": "c991efe1b1d28f519fdf637c53e2cba5bf1dc333962bbbc69021125b673980ce",
+        "size_in_bytes": 81394032
+      },
+      {
+        "_path": "lib/libcudnn_adv_train.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "c991efe1b1d28f519fdf637c53e2cba5bf1dc333962bbbc69021125b673980ce",
+        "sha256_in_prefix": "c991efe1b1d28f519fdf637c53e2cba5bf1dc333962bbbc69021125b673980ce",
+        "size_in_bytes": 81394032
+      },
+      {
+        "_path": "lib/libcudnn_cnn_infer.so",
+        "path_type": "softlink",
+        "sha256": "ad1a94f4ef9b0c2ee2160bdc6b436fa91394c716e938eedeaaadda90c9989702",
+        "size_in_bytes": 824714264
+      },
+      {
+        "_path": "lib/libcudnn_cnn_infer.so.8",
+        "path_type": "softlink",
+        "sha256": "ad1a94f4ef9b0c2ee2160bdc6b436fa91394c716e938eedeaaadda90c9989702",
+        "size_in_bytes": 824714264
+      },
+      {
+        "_path": "lib/libcudnn_cnn_infer.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "ad1a94f4ef9b0c2ee2160bdc6b436fa91394c716e938eedeaaadda90c9989702",
+        "sha256_in_prefix": "ad1a94f4ef9b0c2ee2160bdc6b436fa91394c716e938eedeaaadda90c9989702",
+        "size_in_bytes": 824714264
+      },
+      {
+        "_path": "lib/libcudnn_cnn_train.so",
+        "path_type": "softlink",
+        "sha256": "75370cad9231d209bd0b4ab9b034f675aada03a8d922338dcd4080cda8b5e188",
+        "size_in_bytes": 99783040
+      },
+      {
+        "_path": "lib/libcudnn_cnn_train.so.8",
+        "path_type": "softlink",
+        "sha256": "75370cad9231d209bd0b4ab9b034f675aada03a8d922338dcd4080cda8b5e188",
+        "size_in_bytes": 99783040
+      },
+      {
+        "_path": "lib/libcudnn_cnn_train.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "75370cad9231d209bd0b4ab9b034f675aada03a8d922338dcd4080cda8b5e188",
+        "sha256_in_prefix": "75370cad9231d209bd0b4ab9b034f675aada03a8d922338dcd4080cda8b5e188",
+        "size_in_bytes": 99783040
+      },
+      {
+        "_path": "lib/libcudnn_ops_infer.so",
+        "path_type": "softlink",
+        "sha256": "f9bb73a71f224de7a0c20ed407abb2d0f31545448878c711dea5edd9d793db02",
+        "size_in_bytes": 280469328
+      },
+      {
+        "_path": "lib/libcudnn_ops_infer.so.8",
+        "path_type": "softlink",
+        "sha256": "f9bb73a71f224de7a0c20ed407abb2d0f31545448878c711dea5edd9d793db02",
+        "size_in_bytes": 280469328
+      },
+      {
+        "_path": "lib/libcudnn_ops_infer.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "f9bb73a71f224de7a0c20ed407abb2d0f31545448878c711dea5edd9d793db02",
+        "sha256_in_prefix": "f9bb73a71f224de7a0c20ed407abb2d0f31545448878c711dea5edd9d793db02",
+        "size_in_bytes": 280469328
+      },
+      {
+        "_path": "lib/libcudnn_ops_train.so",
+        "path_type": "softlink",
+        "sha256": "2c7e8ef994bc808397672125026bd9239f951cff562164983572107f33b99568",
+        "size_in_bytes": 45351968
+      },
+      {
+        "_path": "lib/libcudnn_ops_train.so.8",
+        "path_type": "softlink",
+        "sha256": "2c7e8ef994bc808397672125026bd9239f951cff562164983572107f33b99568",
+        "size_in_bytes": 45351968
+      },
+      {
+        "_path": "lib/libcudnn_ops_train.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "2c7e8ef994bc808397672125026bd9239f951cff562164983572107f33b99568",
+        "sha256_in_prefix": "2c7e8ef994bc808397672125026bd9239f951cff562164983572107f33b99568",
+        "size_in_bytes": 45351968
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cudnn=8.1.0",
+  "sha256": "c94d2ab3521bb22a57f55c19590fbd703b25fc20d0e1be866137de5c3e785d83",
+  "size": 665609758,
+  "subdir": "linux-64",
+  "timestamp": 1614210686057,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cudnn-8.1.0.77-h90431f1_0.tar.bz2",
+  "version": "8.1.0.77"
+}
